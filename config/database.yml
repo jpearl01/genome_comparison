@@ -14,8 +14,8 @@ development:
   reconnect: false
   database: genome_comparison_development
   pool: 5
-  username: root
-  password:
+  username: josh
+  password: cgs-1953-asri
   socket: /var/lib/mysql/mysql.sock
 
 # Warning: The database defined as "test" will be erased and
@@ -27,8 +27,8 @@ test:
   reconnect: false
   database: genome_comparison_test
   pool: 5
-  username: root
-  password:
+  username: josh
+  password: cgs-1953-asri
   socket: /var/lib/mysql/mysql.sock
 
 production:
@@ -37,6 +37,6 @@ production:
   reconnect: false
   database: genome_comparison_production
   pool: 5
-  username: root
-  password:
+  username: josh
+  password: cgs-1953-asri
   socket: /var/lib/mysql/mysql.sock

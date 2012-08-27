@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Title:</b>
+  <%= @comparison.title %>
+</p>
+
+<p>
+  <b>User:</b>
+  <%= @comparison.user_id %>
+</p>
+
+
+<%= link_to 'Edit', edit_comparison_path(@comparison) %> |
+<%= link_to 'Back', comparisons_path %>
