@@ -11,6 +11,7 @@ gem 'therubyracer', :platforms => :ruby
 
 group :development, :test do
   gem 'rspec-rails', '2.10.0'
+  gem 'guard-rspec', '0.5.5'
 end
 
 # Gems used only for assets and not required
@@ -29,10 +30,13 @@ gem 'jquery-rails'
 
 group :test do
   gem 'capybara', '1.1.2'
+  gem 'rb-inotify', '0.8.8'
+  gem 'libnotify', '0.5.9'
 end
 
 
 #Apparently for deploying with Heroku
+#oh, its just the postgresql library
 group :production do 
   gem 'pg', '0.12.2'
 end
